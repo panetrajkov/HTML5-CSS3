@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-box {
+    /* Resolution: 1920x1080 */
+    width: 52.08vw; /* 1000px */
+    height: 92.59vh; /* 1000px */
+    /* border: 0.16vw solid black; 3px */
+    position: relative;
+}
+
+.box-1 {
+    /* Top-Left First Box */
+    width: 13.02vw; /* 250px */
+    height: 9.26vh; /* 100px */
+    border-right: 0.26vw solid black;
+    border-bottom: 0.46vh solid black;
+    background-color: #e5eeeb;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-2 {
+    /* 2nd Top Box */
+    width: 18.23vw;
+    height: 9.26vh;
+    border-right: 0.26vw solid black;
+    border-bottom: 0.46vh solid black;
+    background-color: #f2e7d5;
+    position: absolute;
+    left: 13.02vw;
+}
+
+.box-3 {
+    /* 3rd Top Box  */
+    width: 16.15vw;
+    height: 9.26vh;
+    border-right: 0.40vw solid black;
+    border-bottom: 0.46vh solid black;
+    background-color: #f2c968;
+    position: absolute;
+    left: 31.25vw;
+}
+
+.box-4 {
+    /* 4th Top Box [Long] */
+    width: 5vw;
+    height: 74.07vh;
+    border-left: 0.15vw solid black;
+    border-bottom: 0.46vh solid black;
+    background-color: #fcfde7;
+    position: absolute;
+    right: 0;
+}
+
+.box-5 {
+    /* 2nd row 1st Box */
+    width: 6.51vw;
+    height: 16.67vh;
+    border-bottom: 0.46vh solid black;
+    background-color: #fbfde7;
+    position: absolute;
+    left: 0;
+    top: 9.26vh;
+}
+
+.box-6 {
+    /* 2nd row 2nd Box (Big Red Square) */
+    width: 24.74vw;
+    height: 41.67vh;
+    border-bottom: 0.20vh solid black;
+    border-right: 0.26vw solid black;
+    border-left: 0.26vw solid black;
+    background-color: #d62d24;
+    position: absolute;
+    left: 6.51vw;
+    top: 9.26vh;
+}
+
+.box-7 {
+    /* 2nd row 3rd Box */
+    width: 15.950vw;
+    height: 18.52vh;
+    border-bottom: 0.46vh solid black;
+    border-right: 0.26vw solid black;
+    background-color: #f2c968;
+    position: absolute;
+    right: 4.87vw;
+    top: 9.26vh;
+}
+
+.box-8 {
+        /* 3rd row 1st Box */
+    width: 6.51vw;
+    height: 39.780vh;
+    border-bottom: 0.46vh solid black;
+    background-color: #e1eae5;
+    position: absolute;
+    bottom: 26.93vh;
+    left: 0;
+}
+
+.box-9 {
+    /* 3rd row 2nd Box below the Huge Red Box */
+    left: 6.51vw;
+    bottom: 11.57vh;
+    position: absolute;
+    width: 12.37vw;
+    height: 30.09vh;
+    background-color: black;
+}
+
+.box-10 {
+    /* 3rd row 3rd half sized top box */
+    left: 18.88vw;
+    bottom: 27.78vh;
+    width: 12.37vw;
+    height: 13.89vh;
+    position: absolute;
+    background-color: #c0bfba;
+    border-bottom: 0.46vh solid black;
+    border-right: 0.26vw solid black;
+    border-top: 0.46vh solid black;
+}
+
+.box-11 {
+    /* 3rd row 3rd half sized bot box */
+    left: 18.88vw;
+    bottom: 13.89vh;
+    width: 12.37vw;
+    height: 13.89vh;
+    position: absolute;
+    background-color: #dee2d4;
+    border-bottom: 0.46vh solid black;
+    border-right: 0.26vw solid black;
+}
+
+.box-12 {
+    /* 3rd row 4th Box */
+    left: 31.2vw;
+    bottom: 27.78vh;
+    width: 15.90vw;
+    height: 13.89vh;
+    position: absolute;
+    background-color: #d6dee0;
+    border-bottom: 0.46vh solid black;
+    border-right: 0.15vw solid black;
+    border-top: 0.46vh solid black;
+}
+
+.box-13 {
+    /* 3rd row 3rd left box */
+    left: 31.2vw;
+    bottom: 41.67vh;
+    width: 7.92vw;
+    height: 23.25vh;
+    position: absolute;
+    background-color: #dfe5d0;
+    border-right: 0.26vw solid black;
+}
+
+.box-14 {
+    /* 3rd row 4th right box */
+    width: 7.98vw;
+    height: 23.2vh;
+    left: 39.12vw;
+    bottom: 41.67vh;
+    position: absolute;
+    background-color: #f2eee2;
+    border-right: 0.15vw solid black;
+}
+
+.box-15 {
+    /* 4th row bot left box */
+    width: 6.60vw;
+    height: 26.95vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #f4c65a;
+    border-right: 0.21vw solid black;
+}
+
+.box-16 {
+    /* 4th row bot beneath black square */
+    width: 12.37vw;
+    height: 13.89vh;
+    background-color: #e3ded9;
+    position: absolute;
+    bottom: 0;
+    left: 6.51vw;
+    border-right: 0.26vw solid black;
+}
+
+.box-17 {
+    /* Black Box beneath 2 boxes on top of each other */
+    width: 12.37vw;
+    height: 8.33vh;
+    background-color: black;
+    bottom: 5.83vh;
+    left: 18.88vw;
+    position: absolute;
+}
+
+.box-18 {
+    /* Big Blue Bot Right Box */
+    width: 15.95vw;
+    height: 21.94vh;
+    bottom: 5.83vh;
+    left: 31.2vw;
+    position: absolute;
+    background-color: #241785;
+    border-right: 0.26vw solid black;
+}
+
+.box-19 {
+    /* Bot Long Box */
+    width: 28.20vw;
+    height: 5.83vh;
+    bottom: 0;
+    left: 18.88vw;
+    position: absolute;
+    background-color: #e0e0df;
+    border-top: 0.46vh solid black;
+    border-right: 0.26vw solid black;
+}
+
+.box-20 {
+    /* Bot-Right Box */
+    width: 5vw;
+    height: 18.50vh;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: #d73630;
+}
